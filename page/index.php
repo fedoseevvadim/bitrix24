@@ -1,27 +1,43 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 IncludeModuleLangFile($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/intranet/public/configs/index.php");
-$APPLICATION->SetTitle('Копирование в буфер обмена');
+$APPLICATION->SetTitle('Выгрузка в Excel');
 
-CJSCore::Init (
-    array('clipboard')
-);
 
 ?>
-    <div id="INN_1" data-clipboard-text="123456789" onclick="copyElement(this.id)" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Скопировать ИНН в буфер обмена">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-        123456789
+    <table class="table" id="tableID">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+        </tr>
+        </tbody>
+    </table>
 
-    </div>
-
-    <div style="padding-top: 1rem;">
-
-    <div id="INN_2" data-clipboard-text="234567891" onclick="copyElement(this.id)" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Скопировать ИНН в буфер обмена">
-
-        234567891
-
-    </div>
-
+    <input class="btn btn-success" value="Экспорт в XLS" onclick="tableToExcel('tableID','Таблица', 'Таблица.xls')">
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");
 ?>
