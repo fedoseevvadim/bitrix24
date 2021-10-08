@@ -2,4 +2,4 @@
 
 use Bitrix\Main\Page\Asset;
 
-Asset::getInstance()->addJs("/local/js/crm_menu.js");
+Asset::getInstance()->addJs("/local/js/global.js");
