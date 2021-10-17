@@ -2,4 +2,6 @@
 
 use Bitrix\Main\Page\Asset;
 
-Asset::getInstance()->addJs("/local/js/global.js");
+CJSCore::Init(array("jquery" ));
+
+Asset::getInstance()->addJs("/local/js/task.js");
