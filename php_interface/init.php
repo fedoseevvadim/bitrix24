@@ -1,7 +1,2 @@
 <?php
-
-use Bitrix\Main\Page\Asset;
-
-CJSCore::Init(array("jquery" ));
-
-Asset::getInstance()->addJs("/local/js/task.js");
+require_once ( $_SERVER[ "DOCUMENT_ROOT" ] . "/local/modules/itjet/lib/autoload.php" );

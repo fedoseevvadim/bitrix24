@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>2</id>
+		<name>Catalog</name>
+		<table_name>crm_catalog</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>2</id>
+			<lid>ru</lid>
+			<name>Каталог</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>111</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>Y</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Название</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>112</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_DESCRIPTION</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>Y</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru />
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_name>Аберрантный</uf_name>
+			<uf_description>отклоняющийся от нормального строения, расположения или состояния. Аберрантное поведение-Не соответствующее обычному.</uf_description>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_name>Аберрация</uf_name>
+			<uf_description>искажение наблюдаемых явлений, отход от истинности или от нормы. Когнитивные аберрации.</uf_description>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_name>Балисонг</uf_name>
+			<uf_description>складной нож-бабочка.</uf_description>
+		</item>
+		<item>
+			<id>4</id>
+			<uf_name>Бинди</uf_name>
+			<uf_description>цветная точка, которую индианки рисуют в центре лба; она означает, что эта женщина замужем.</uf_description>
+		</item>
+		<item>
+			<id>5</id>
+			<uf_name>Бонистика</uf_name>
+			<uf_description>изучение бумажных денежных знаков как исторических артефактов.</uf_description>
+		</item>
+		<item>
+			<id>6</id>
+			<uf_name>Вагитус</uf_name>
+			<uf_description>крик новорожденного ребенка.</uf_description>
+		</item>
+		<item>
+			<id>7</id>
+			<uf_name>Волюнтаризм</uf_name>
+			<uf_description>учение, полагающее в основы бытия волевое начало.</uf_description>
+		</item>
+	</items>
+</hiblock>
